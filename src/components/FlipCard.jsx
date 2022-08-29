@@ -6,6 +6,8 @@ import MoosicFront from '../components/MoosicFront'
 import MoosicBack from '../components/MoosicBack'
 import TornadoBack from '../components/TornadoBack'
 import TornadoFront from '../components/TornadoFront'
+import TicBack from '../components/TicBack'
+import TicFront from '../components/TicFront'
 
 export default class FlipCard extends Component {
   render() {
@@ -50,6 +52,18 @@ export default class FlipCard extends Component {
             </FrontSide>
             <BackSide>
               <MoosicBack />
+            </BackSide>
+          </Flippy>
+          <Flippy
+            flipOnHover={false}
+            flipOnClick={true}
+            flipDirection="horizontal"
+          >
+            <FrontSide>
+              <TicFront />
+            </FrontSide>
+            <BackSide>
+              <TicBack />
             </BackSide>
           </Flippy>
         </div>
