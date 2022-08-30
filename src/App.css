@@ -7,7 +7,6 @@
 body {
   margin: 0;
 }
-
 .logo {
   height: 14vh;
 }
@@ -22,7 +21,6 @@ nav {
   display: flex;
   justify-content: flex-start;
 }
-
 .navLinks:hover {
   text-decoration: none;
   color: white;
