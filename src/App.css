@@ -7,17 +7,7 @@
 body {
   margin: 0;
 }
-a:link {
-  text-decoration: none;
-  font-size: 21px;
-  padding-left: 17px;
-  font-family: 'Poppins', sans-serif;
-}
-a:hover {
-  text-decoration: none;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-}
+
 .logo {
   height: 14vh;
 }
@@ -32,7 +22,17 @@ nav {
   display: flex;
   justify-content: flex-start;
 }
+
+.navLinks:hover {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
 .navLinks {
+  text-decoration: none;
+  font-size: 23px;
+  padding-left: 17px;
+  font-family: 'Poppins', sans-serif;
   color: rgb(0, 194, 203);
   display: flex;
   justify-content: flex-end;
@@ -45,6 +45,7 @@ Footer {
 }
 .footerImg {
   height: 11vh;
+  margin: 9px;
 }
 .footerImg:hover {
   height: 13vh;
@@ -85,6 +86,10 @@ Footer {
 }
 .website {
   color: rgb(0, 129, 203);
+  text-decoration: none;
+  font-size: 21px;
+  padding-left: 17px;
+  font-family: 'Poppins', sans-serif;
 }
 .website:hover {
   color: blue;
