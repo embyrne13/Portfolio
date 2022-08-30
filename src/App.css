@@ -89,6 +89,12 @@ Footer {
 .website:hover {
   color: blue;
 }
+.email {
+  color: rgb(7, 7, 100);
+}
+.email:hover {
+  color: blue;
+}
 .flippy-container {
   margin: 22px;
 }
