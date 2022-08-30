@@ -4,6 +4,9 @@
   background-color: rgb(38, 68, 139);
   font-family: 'Poppins', sans-serif;
 }
+body {
+  margin: 0;
+}
 a:link {
   text-decoration: none;
   font-size: 21px;
@@ -42,11 +45,9 @@ Footer {
 }
 .footerImg {
   height: 11vh;
-  margin: 5px;
 }
 .footerImg:hover {
   height: 13vh;
-  margin: 5px;
 }
 .portfolioImg {
   /* border-radius: 50%; */
