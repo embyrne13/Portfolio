@@ -45,6 +45,14 @@ Footer {
   justify-content: center;
   align-items: center;
 }
+.footerImgz {
+  height: 74px;
+  width: 74px;
+  border-radius: 50%;
+}
+.footerImgz:hover {
+  height: 13vh;
+}
 .footerImg {
   height: 11vh;
   margin: 9px;

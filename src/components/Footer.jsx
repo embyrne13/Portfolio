@@ -1,6 +1,12 @@
+import { Link } from 'react-router-dom'
+const url = require('../Images/logo.jpg')
+
 const Footer = () => {
   return (
     <footer>
+      <Link to="/">
+        <img className="footerImgz" src={url} alt=""></img>
+      </Link>
       <div className="navLinks">
         <a href="https://www.linkedin.com/in/emilybyrne3/">
           <img
