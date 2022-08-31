@@ -143,7 +143,6 @@ h2 {
   color: rgb(7, 7, 100);
 }
 @media only screen and (max-width: 415px) {
-  /* For mobile phones: */
   .prof {
     display: flex;
     flex-direction: column;
