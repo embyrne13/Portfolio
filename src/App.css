@@ -130,20 +130,39 @@ p,
 h2 {
   color: rgb(7, 7, 100);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 415px) {
   /* For mobile phones: */
   .prof {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100;
+    align-items: center;
   }
-  .portfolioImg {
-    height: 171px;
+  .profile {
+    height: 232px;
     width: 202px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-  Header {
-    width: 100;
+  .info {
+    min-width: 90%;
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+  }
+  .logo {
+    display: none;
+  }
+  .nav {
+    width: 99vw;
+  }
+  h1 {
+    margin-top: 50px;
+  }
+  h2 {
+    margin-left: 20px;
   }
   body {
     margin: 0;
