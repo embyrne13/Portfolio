@@ -130,3 +130,19 @@ p,
 h2 {
   color: rgb(7, 7, 100);
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .prof {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100;
+  }
+  .portfolioImg {
+    height: 171px;
+    width: 202px;
+  }
+  Header {
+    width: 100;
+  }
+}
