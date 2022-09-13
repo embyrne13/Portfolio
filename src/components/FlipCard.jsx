@@ -8,6 +8,8 @@ import TornadoBack from '../components/TornadoBack'
 import TornadoFront from '../components/TornadoFront'
 import TicBack from '../components/TicBack'
 import TicFront from '../components/TicFront'
+import TakeoffFront from '../components/TakeoffFront'
+import TakeoffBack from '../components/TakeoffBack'
 
 export default class FlipCard extends Component {
   render() {
@@ -16,6 +18,18 @@ export default class FlipCard extends Component {
         <p className="click">Click on an image for more information</p>
 
         <div className="layout">
+          <Flippy
+            flipOnHover={false}
+            flipOnClick={true}
+            flipDirection="horizontal"
+          >
+            <FrontSide>
+              <TakeoffFront />
+            </FrontSide>
+            <BackSide>
+              <TakeoffBack />
+            </BackSide>
+          </Flippy>
           <Flippy
             flipOnHover={false}
             flipOnClick={true}
