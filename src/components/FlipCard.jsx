@@ -24,6 +24,18 @@ export default class FlipCard extends Component {
             flipDirection="horizontal"
           >
             <FrontSide>
+              <TravelFront />
+            </FrontSide>
+            <BackSide>
+              <TravelBack />
+            </BackSide>
+          </Flippy>
+          <Flippy
+            flipOnHover={false}
+            flipOnClick={true}
+            flipDirection="horizontal"
+          >
+            <FrontSide>
               <TakeoffFront />
             </FrontSide>
             <BackSide>
@@ -36,13 +48,12 @@ export default class FlipCard extends Component {
             flipDirection="horizontal"
           >
             <FrontSide>
-              <TravelFront />
+              <MoosicFront />
             </FrontSide>
             <BackSide>
-              <TravelBack />
+              <MoosicBack />
             </BackSide>
           </Flippy>
-
           <Flippy
             flipOnHover={false}
             flipOnClick={true}
@@ -53,19 +64,6 @@ export default class FlipCard extends Component {
             </FrontSide>
             <BackSide>
               <TornadoBack />
-            </BackSide>
-          </Flippy>
-
-          <Flippy
-            flipOnHover={false}
-            flipOnClick={true}
-            flipDirection="horizontal"
-          >
-            <FrontSide>
-              <MoosicFront />
-            </FrontSide>
-            <BackSide>
-              <MoosicBack />
             </BackSide>
           </Flippy>
           <Flippy
