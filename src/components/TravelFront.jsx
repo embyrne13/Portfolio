@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-const travel = require('../Images/TravelBlogLogo.jpg')
+const travel = require('../Images/TravelBlogLogo.png')
 
 export default class TravelFront extends Component {
   render() {
