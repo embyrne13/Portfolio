@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-const tic = require('../Images/TicTacToe.jpg')
+const tic = require('../Images/TicTacToe.png')
 
 export default class TicFront extends Component {
   render() {
