@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 .logo {
-  height: 14vh;
+  height: 13vh;
 }
 Header {
   background-color: rgb(5, 5, 49);
@@ -62,7 +62,6 @@ Footer {
   height: 13vh;
 }
 .portfolioImg {
-  /* border-radius: 50%; */
   height: 333px;
   width: 363px;
 }
@@ -125,7 +124,7 @@ Footer {
 }
 .profile {
   margin-top: 60px;
-  margin-left: 50px;
+  margin-left: 121px;
   border-radius: 22%;
 }
 .prof {
